@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const TestCase = require("../models/Testcase");
+const TestCase = require("../models/TestCase");
 // Add a new test case
 router.post("/", async (req, res) => {
   try {
